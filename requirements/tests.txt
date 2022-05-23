@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements/tests.in
 #
-asgiref==3.5.1
+asgiref==3.5.2
     # via -r requirements/tests.in
 attrs==21.4.0
     # via
@@ -12,8 +12,6 @@ attrs==21.4.0
     #   pytest
 coverage[toml]==6.3.2
     # via pytest-cov
-importlib-resources==5.7.1
-    # via jsonschema
 iniconfig==1.1.1
     # via pytest
 jsonschema==4.4.0
@@ -46,8 +44,6 @@ tomli==2.0.1
     # via
     #   coverage
     #   pytest
-zipp==3.8.0
-    # via importlib-resources
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
